@@ -15,3 +15,6 @@
 ### Topic: Javascript => Ikrimed/Dikremed === Obj, Arr,
 
 <!-- Confirm is bolean Alert() -->
+№4 
+
+## Theme Loops  ||  For / While / Map  || cicle

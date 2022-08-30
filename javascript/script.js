@@ -235,31 +235,97 @@
 // );
 
 
-function MyFirstApp(name, age) {
-    alert(`Hi, My name's ${name}, I'm ${age}`)
+// function MyFirstApp(name, age) {
+//     alert(`Hi, My name's ${name}, I'm ${age}`)
 
 
-    function showSkills() {
-        let skills = ['HTML & CSS', 'Javascript']
-        for (let i = 0; i < skills.length; i++) {
-            alert(`Skills ${skills[i]}`)
-        }
-    }
-    showSkills() 
+//     function showSkills() {
+//         let skills = ['HTML & CSS', 'Javascript']
+//         for (let i = 0; i < skills.length; i++) {
+//             alert(`Skills ${skills[i]}`)
+//         }
+//     }
+//     showSkills()
 
-    function chekAge() {
-        if (age > 18) {
-            alert('Exacly data')
-        } else if (age < 18) {
-            alert('Super data')
-        }
-    }
-    chekAge()
+//     function chekAge() {
+//         if (age > 18) {
+//             alert('Exacly data')
+//         } else if (age < 18) {
+//             alert('Super data')
+//         }
+//     }
+//     chekAge()
 
-    function calcPow(num) {
-        return num * num
-    }
-    console.log(calcPow(5));
+//     function calcPow(num) {
+//         return num * num
+//     }
+//     console.log(calcPow(5));
 
-}
-MyFirstApp(name = 'Sokhibjon', age = 15)
+// }
+// MyFirstApp(name = 'Sokhibjon', age = 15)
+
+
+// ## // ##  context => this, bind , call and apply
+
+
+// function sam(){
+//     console.log(this);
+// }
+
+// sam()
+
+// function sam() {
+//     console.log(this)
+// }
+
+// const person = {
+//     name: 'Samar',
+//     age: 20,
+//     callContext: sam(),
+// }
+// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+// console.log('object');
+
+
+
+/// Practice function( this, bind, call, apply)
+
+
+// function sam() {
+//     console.log(this);
+// }
+// const persone = {
+//     name: 'Samar',
+//     age: 20,
+//     job: 'react-js',
+//     callContext: sam,
+//     callAnotherContext: sam.bind(this),
+//     callInfoJob: function (number) {
+//         console.group(`Name is ${this.name}info:`);
+//         console.log(`Name is ${this.name}`);
+//         console.log(`Age is ${this.age}`);
+//         console.log(`Job is ${this.job}`);
+//         console.log(`Contact is ${number}`);
+//         console.groupEnd();
+//     }
+// }
+// const frontEndDev = {
+//     name: 'Yusuf',
+//     age: 19,
+//     job: 'javascript',
+// }
+
+// const fullInfo =  persone.callInfoJob.bind(frontEndDev)
+// fullInfo('+998 ## ### ## ##')
+
+// /// ## ## apply
+// persone.callInfoJob.apply(frontEndDev, ['+998 ## ### ## ##'])
+
+// /// ## ## call
+// persone.callInfoJob.call(frontEndDev, '+998 ## ### ## ##')
+
+
+
+// /// apply and call is !isReturn func()
+
+

@@ -97,9 +97,6 @@
 
 // Name()
 
-
-
-
 // For
 // for (let i = 0; i <= 100; i++) {
 //     console.log(i);
@@ -117,9 +114,7 @@
 //     i++
 // }
 
-
 // ## Practice
-
 
 // let answers = []
 // let questions = [
@@ -143,11 +138,8 @@
 //     REQ[i] = prompt(RES[i])
 // }
 
-
-
 // Theme : if else % // // //switch case
 // ========================================= if else
-
 
 // if (age < 18) {
 //     alert('Xali vohli')
@@ -156,8 +148,6 @@
 // } else {
 //     alert('Vush kelibsiz')
 // }
-
-
 
 // Theme : function & return
 // ============================================== function
@@ -168,19 +158,13 @@
 // Name(name = 'Sokhibjon')
 // Name(name = 'Samar')
 
-
-
 // ========== Topic . func () decloration
-
-
 
 // Name(name = 'Sokhibjon')
 
 // function Name(name) {
 //     console.log(`Hi , I'm ${name}`);
 // }
-
-
 
 // ========== Topic . func () expression
 
@@ -191,7 +175,6 @@
 // }
 
 // myFunction()
-
 
 //Topic  Global view function()
 
@@ -206,7 +189,6 @@
 
 // MyFunction(name = 'John')
 // console.log(num);
-
 
 //Practice
 
@@ -234,10 +216,8 @@
 //     name
 // );
 
-
 // function MyFirstApp(name, age) {
 //     alert(`Hi, My name's ${name}, I'm ${age}`)
-
 
 //     function showSkills() {
 //         let skills = ['HTML & CSS', 'Javascript']
@@ -264,9 +244,7 @@
 // }
 // MyFirstApp(name = 'Sokhibjon', age = 15)
 
-
 // ## // ##  context => this, bind , call and apply
-
 
 // function sam(){
 //     console.log(this);
@@ -286,10 +264,7 @@
 // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 // console.log('object');
 
-
-
 /// Practice function( this, bind, call, apply)
-
 
 // function sam() {
 //     console.log(this);
@@ -324,8 +299,7 @@
 // /// ## ## call
 // persone.callInfoJob.call(frontEndDev, '+998 ## ### ## ##')
 
-
-
 // /// apply and call is !isReturn func()
 
+// ## // ## Closures
 

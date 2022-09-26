@@ -53,7 +53,7 @@
 
 //     sayHi() {
 //       // this - это "текущий объект"
-//       alert(this.name);
+//       console.log(this.name);
 //     }
 
 //   };
@@ -303,3 +303,83 @@
 
 // ## // ## Closures
 
+
+
+
+// OOP  Класс  abstrakt\ (синтаксическим сахаром)
+
+// class Human {
+//     constructor(firstName, lastName) {
+//         this.firstName = firstName
+//         this.lastName = lastName
+//     }
+
+// }
+
+// const chris = new Human('Coyier', 'Chris')
+
+// console.log(chris.firstName) // Chris
+// console.log(chris.lastName) // Coyier
+
+// ## // ## practice make perfect 
+
+// class Human {
+//     constructor(firstName, lastName) {
+//         this.firstName = firstName
+//         this.lastName = lastName
+//     }
+// }
+// const user = new Human('Tom', 'Holand')
+// console.log(user.firstName, user.lastName);
+
+
+
+// ## // ## Связывание объектов // Object create , init
+
+
+
+// const Human = {
+//     init(firstName, lastName) {
+//         this.firstName = firstName
+//         this.lastName = lastName
+//     }
+// }
+
+// const chris = Object.create(Human)
+// chris.init('Chris', 'Coyier')
+
+// console.log(chris.firstName, chris.lastName) 
+
+// const User = {
+//     init(name, surname) {
+//         this.name = name
+//         this.surname = surname
+//     }
+// }
+
+// const nps = Object.create(User)
+// nps.init('Mr', '.Marmok')
+
+// console.log(nps.name, nps.surname);
+
+
+// ## // ## theory oop
+
+// с помощью инициализации экземпляра
+// с помощью цепочки прототипов
+
+
+// ## // ## // ##  SOLID theory
+
+// "S" Single Responsibility Principle
+// "O" Open/Closed Principle
+// "L" Liskov’s Substitution Principle
+// "I" Interface Segregation Principle
+// "D" Dependency Injection Principle
+
+
+// ## // ## // ##  DRY theory
+
+// "D" 
+// "R" 
+// "Y" 

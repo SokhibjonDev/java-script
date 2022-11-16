@@ -380,6 +380,8 @@
 
 // ## // ## // ##  DRY theory
 
-// "D" 
-// "R" 
-// "Y" 
+// "D" Dont
+// "R" Repeat
+// "Y" Yourself
+
+console.log('hello world');

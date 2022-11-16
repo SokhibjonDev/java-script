@@ -384,4 +384,14 @@
 // "R" Repeat
 // "Y" Yourself
 
-console.log('hello world');
+// console.log('hello world');
+
+// window.addEventListener('load', function (e) {
+//     var str = 'My name`s Anton'
+
+//     console.log(str.length);
+//     console.log(str.toLowerCase());
+//     console.log(str.toUpperCase()); 
+//     console.log(str.slice(0, 15)); // olib beruvchi
+//     console.log(str.substr(0, 3)); // qirqib beruvchi
+// });
